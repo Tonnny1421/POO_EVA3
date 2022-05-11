@@ -17,7 +17,7 @@ public class EVA3_9_CLASE_EXCEPTIONNewClass {
                 int edad = spect.nextInt();
                 System.out.println("Tu edad es " + edad);
                 dErroneo = false;
-            } catch (InputMismatchException e) {
+            } catch (Exception e) {
                 System.out.println(spect.next()+ " no es un numero valido");
             }
 
